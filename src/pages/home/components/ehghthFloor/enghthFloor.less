@@ -1,0 +1,74 @@
+@import '../../../../common/less/mixins.less';
+
+.enghth-floor {
+  width: 100%;
+  height: 654px;
+  background: #fff;
+  margin-bottom: 20px;
+
+  .enghth-floor-header {
+    .more-floor-header()
+  }
+
+  .enghth-floor-content {
+    width: 100%;
+    padding: 0 26px 26px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+
+    .content-item {
+      width: 343px;
+      height: 260px;
+      margin-right: 4px;
+      margin-bottom: 4px;
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: bottom center;
+
+      h2 {
+        font-size: 28px;
+        color: #333;
+        padding-top: 23px;
+      }
+
+      p {
+        font-size: 24px;
+        color: #7f7f7f;
+
+        span {
+          font-size: 24px;
+          color: #fff;
+          background: #CBB693;
+          margin-left: 10px;
+          padding: 4px;
+          border-radius: 4px;
+        }
+      }
+
+      &:nth-child(1) {
+        background-color: #F4FAFA;
+        background-image: url('https://yanxuan.nosdn.127.net/74e2ea8f81004d0a60f90fc8e4649058.png?imageView&thumbnail=343y260&enlarge=1');
+      }
+
+      &:nth-child(2) {
+        background-color: #F2F9F9;
+        background-image: url('https://yanxuan.nosdn.127.net/c097be14110f769d58245cdad73e15c3.png?imageView&thumbnail=343y260&enlarge=1');
+      }
+
+      &:nth-child(3) {
+        background-color: #F6F7F9;
+        background-image: url('https://yanxuan.nosdn.127.net/66a23d776f41cba70d00803a5231124b.png?imageView&thumbnail=343y260&enlarge=1');
+      }
+
+      &:nth-child(4) {
+        background-color: #FBF7F7;
+        background-image: url('https://yanxuan.nosdn.127.net/2696f71b5212cfabab8c90af7d06a927.png?imageView&thumbnail=343y260&enlarge=1');
+      }
+    }
+  }
+}

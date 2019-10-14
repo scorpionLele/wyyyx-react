@@ -1,0 +1,59 @@
+[
+  {
+    "tabId": 9,
+    "tabName": "推荐",
+    "tabType": 3,
+    "defaultShow": false,
+    "linkUrl": null,
+    "linkType": null
+  },
+  {
+    "tabId": 6,
+    "tabName": "好物大赏",
+    "tabType": 2,
+    "defaultShow": false,
+    "linkUrl": "https://m.you.163.com/topic/v1/pub/2tOxzlCZpPSt.html",
+    "linkType": 0
+  },
+  {
+    "tabId": 14,
+    "tabName": "好货内部价",
+    "tabType": 2,
+    "defaultShow": false,
+    "linkUrl": "https://m.you.163.com/topic/v1/pub/MZee3MWrbs.html",
+    "linkType": 0
+  },
+  {
+    "tabId": 18,
+    "tabName": "选购指南",
+    "tabType": 2,
+    "defaultShow": false,
+    "linkUrl": "https://m.you.163.com/topic/v1/pub/BWut4BmB2xHp.html",
+    "linkType": 0
+  },
+  {
+    "tabId": 7,
+    "tabName": "晒单",
+    "tabType": 2,
+    "defaultShow": false,
+    "linkUrl": "https://m.you.163.com/topic/static/look/index",
+    "linkType": 1
+  },
+  {
+    "tabId": 12,
+    "tabName": "回购榜",
+    "tabType": 2,
+    "defaultShow": false,
+    "linkUrl": "https://m.you.163.com/topic/v1/pub/GpCIMFZBO2.html",
+    "linkType": 0
+  },
+  {
+    "tabId": 4,
+    "tabName": "达人",
+    "tabType": 0,
+    "defaultShow": false,
+    "linkUrl": null,
+    "linkType": null
+  }
+]
+

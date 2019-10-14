@@ -1,0 +1,96 @@
+
+.border-top-1px(@color){
+  position :relative;
+  border :none;
+  &::before{
+    display :block;
+    content :'';
+    width :100%;
+    height :2px;
+    position :absolute;
+    left :0;
+    top :0;
+    background-color :@color;
+    @media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 2dppx){
+      transform :scaleY(.5);
+    };
+    @media (-webkit-min-device-pixel-ratio: 3),(min-resolution: 3dppx){
+      transform :scaleY(.33);
+    }
+  }
+}
+  
+
+.border-bottom-1px(@color){
+  position :relative;
+  border :none;
+  &::after{
+    display :block;
+    content :'';
+    width :100%;
+    height :2px;
+    position :absolute;
+    left :0;
+    bottom :0;
+    background-color :@color;
+    @media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 2dppx){
+      transform :scaleY(.5);
+    };
+    @media (-webkit-min-device-pixel-ratio: 3),(min-resolution: 3dppx){
+      transform :scaleY(.33);
+    }
+  }
+}
+
+.floor-header (){
+  width: 100%;
+  height: 100px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.more-floor-header (){
+  width: 100%;
+  height: 100px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .header-left {
+    color: #333;
+    font-size: 32px;
+  }
+  .header-right {
+    display: flex;
+    align-items: center;
+    span {
+      color: #333;
+      font-size: 28px;
+    }
+    .more {
+      width: 13px;
+      height: 23px;
+      margin-left: 8px;
+      background: url('//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/index-titleArrow-193a1a730c.png') no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+}
+
+.special (){
+  display: inline-block;
+  height: 30px;
+  line-height: 35px;
+  text-align: center;
+  padding: 0 12px;
+  margin-bottom: 5px;
+  border: 2px solid #CE2424;
+  border-radius: 12px;
+  color:#CE2424;
+  font-size: 20px;
+  transform: scale(.85) translateX(-10px)
+}
